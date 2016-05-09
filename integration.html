@@ -1,4 +1,4 @@
-CTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>My amazing website - Katalina Nadasi</title>
@@ -51,27 +51,30 @@ CTYPE html>
   </head>
   <body>
 
-<div class="container">
+<div class="container-fluid">
 
 <!--     Header -->
 
-<nav class="navbar navbar-default navbar-fixed-top" id="navbar">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-2 col-md-2 col-sm- col-xs-1">
-        <p>
+
+  <nav class="navbar navbar-default navbar-fixed-top" id="navbar">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-1">
+          <p>
           <span class="glyphicon glyphicon-menu-hamburger">&nbsp;<a href="#nav" title="menu" class="menu-button" id="menu">MENU</a><span>
-        <p>
-      </div>
-      <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3 col-lg-offset-8 col-md-offset-8 col-sm-offset-8 col-xs-offset-8">
-        <a href="#nav" title="login" id="login">LOG IN</a>&nbsp;&nbsp;&nbsp;
-          <a href="#" class="btn btn-default btn-sm text-center" role="button">SIGN UP</a>
+          <p>
+        </div>
+        <div class="col-lg-offset-8 col-lg-2 col-md-offset-8 col-md-2 col-sm-offset-7 col-sm-3 col-xs-offset-6 col-xs-4">
+          <div class="pull-right">
+            <a href="#nav" title="login" id="login">LOG IN</a>&nbsp;&nbsp;&nbsp;
+            <a href="#" class="btn btn-default btn-sm text-center" role="button">SIGN UP</a>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  </div>
-</nav>  
- </br></br></br></br>
+  </nav>
+  <br/><br/><br/><br/>
+
 
 <div class="text-center">
   <span class="header"><i class="fa fa-code fa-4x" aria-hidden="true"></i></span>
@@ -132,35 +135,18 @@ CTYPE html>
 </div>
 
 <div class="row" id="section2text">
-  <span class="style">
-  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="border">
-    <img src="pics/pic1.jpg" alt="etiam consequat">
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="border-right: 1px solid white;">
+    <img src="pics/pic1.jpg" alt="etiam consequat" />
     <h2>ETIAM CONSEQUAT</h2></br>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/>Nulla imperdiet, lorem in pretium aliquet, lacus dui tristique lacus, vel convallis justo lectus in augue. Tempus pellentesque iaculis imperdiet et elementum.
-      </p></br>
-        <p></br>
-        <a href="#" class="btn btn-default btn-lg" role="button">LEARN MORE</br>
-        </a>
-        </p>
-        </br></br></br>
-    </span>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/>Nulla imperdiet, lorem in pretium aliquet, lacus dui tristique lacus, vel convallis justo lectus in augue. Tempus pellentesque iaculis imperdiet et elementum.</p>
+    <p><a href="#" class="btn btn-default btn-lg" role="button">LEARN MORE</a></p>
   </div>
-
-  <div class="row" id="section2text2">
-    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
     <img src="pics/pic2.jpg" alt="lacus elementum">
     <h2>LACUS ELEMENTUM</h2></br>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, lorem in pretium aliquet, lacus dui tristique lacus, vel convallis justo lectus in augue. Tempus pellentesque iaculis imperdiet et elementum.
-      </p></br>
-        <p></br>
-        <a href="#" class="btn btn-default btn-lg" role="button">LEARN MORE</br>
-        </a>
-        </p>
-      </div>
-    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, lorem in pretium aliquet, lacus dui tristique lacus, vel convallis justo lectus in augue. Tempus pellentesque iaculis imperdiet et elementum.</p>
+    <p><a href="#" class="btn btn-default btn-lg" role="button">LEARN MORE</a></p>
   </div>
-</span>
-</div>
 </div>
 
 
@@ -169,21 +155,21 @@ CTYPE html>
 
 
 <div class="row" id="section3">
-  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="border">
-  </br></br>
-  <h1 class="text-center">TEMPUS FEUGIAT</h1>
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    </br></br>
+    <h1 class="text-center">TEMPUS FEUGIAT</h1>
     <p class="text-center">IPSUM SED ELEMENTUM AMET</p>
   </div>
 </div>
 
 <div class="row" id="thumb">
-    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 thumb-child">
         <i class="fa fa-cubes fa-3x" aria-hidden="true" id="icon1"></i>
         <h2>JUSTO MAGNA</h2>
         <p>Nulla imperdiet, lorem in pretium sed aliquet, lacus dui magna tristique lacus, vel convallis justo lectus in augue. Tempus pellentesque imperdiet et elementum.</p>
     </div>
 
-    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 thumb-child">
       <i class="fa fa-diamond fa-3x" aria-hidden="true" id="icon2"></i>
         <h2>SED TRISIQUE</h2>
         <p>Nulla imperdiet, lorem in pretium sed aliquet, lacus dui magna tristique lacus, vel convallis justo lectus in augue. Tempus pellentesque imperdiet et elementum.</p>
@@ -192,13 +178,13 @@ CTYPE html>
 
 
   <div class="row" id="thumb">
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 thumb-child">
         <i class="fa fa-camera fa-3x" aria-hidden="true" id="icon3"></i>
           <h2>LACUS PRETIUM</h2>
           <p>Nulla imperdiet, lorem in pretium sed aliquet, lacus dui magna tristique lacus, vel convallis justo lectus in augue. Tempus pellentesque imperdiet et elementum.</p>
       </div>
 
-  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 thumb-child">
     <i class="fa fa-cloud fa-3x" aria-hidden="true" id="icon1"></i>
       <h2>DUI VOLUTPAT</h2>
         <p>Nulla imperdiet, lorem in pretium sed aliquet, lacus dui magna tristique lacus, vel convallis justo lectus in augue. Tempus pellentesque imperdiet et elementum.</p>
@@ -330,4 +316,3 @@ CTYPE html>
 
   </body>
 </html>
-
